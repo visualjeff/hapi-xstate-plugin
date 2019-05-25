@@ -1,6 +1,6 @@
 {
   "name": "hapi-xstate-plugin",
-  "version": "4.5.0",
+  "version": "4.6.0",
   "description": "A Hapi v18 xstate plugin",
   "author": "visualjeff <visualjeff@icloud.com>",
   "repository": "git://github.com/visualjeff/hapi-graceful-shutdown-plugin.git",

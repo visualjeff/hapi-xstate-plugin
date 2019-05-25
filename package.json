@@ -1,0 +1,32 @@
+{
+  "name": "hapi-xstate-plugin",
+  "version": "4.5.0",
+  "description": "A Hapi v18 xstate plugin",
+  "author": "visualjeff <visualjeff@icloud.com>",
+  "repository": "git://github.com/visualjeff/hapi-graceful-shutdown-plugin.git",
+  "bugs": {
+    "url": "https://github.com/visualjeff/hapi-graceful-shutdown-plugin/issues"
+  },
+  "main": "lib/index.js",
+  "keywords": [
+    "hapi",
+    "plugin",
+    "xstate"
+  ],
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "scripts": {
+    "test": "lab -r console -t 100 -a @hapi/code -L",
+    "test-cov-html": "lab -r html -o coverage.html -a code -L"
+  },
+  "dependencies": {
+    "xstate": "^4.6.0"
+  },
+  "devDependencies": {
+    "@hapi/code": "^5.3.1",
+    "@hapi/hapi": "^17.9.0",
+    "@hapi/lab": "^18.1.2"
+  },
+  "license": "MIT"
+}

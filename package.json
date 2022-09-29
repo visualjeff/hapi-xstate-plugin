@@ -24,9 +24,9 @@
     "xstate": "^4.6.0"
   },
   "devDependencies": {
-    "@hapi/code": "^5.3.1",
-    "@hapi/hapi": "^17.9.0",
-    "@hapi/lab": "^18.1.2"
+    "@hapi/code": "^9.0.1",
+    "@hapi/hapi": "^20.2.2",
+    "@hapi/lab": "^25.0.1"
   },
   "license": "MIT"
 }
